@@ -1,0 +1,102 @@
+.cards{
+    height: 40 vh;
+    width: 40vh;
+    margin: 60px;
+    border-radius: 4px; 
+}
+.card{
+    background-color:rgb(231, 227, 227);
+}
+
+.card img{
+    height: 250px;
+}
+.check{
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 234, 234);
+    margin: 40px;
+    padding: 10px;
+}
+.check h1{
+    font-size: 50px;
+}
+.thank{
+    margin: 80px;
+    margin-left: -190px;
+    font-size: large;
+}
+.navigation{
+    box-shadow: 10px;
+}
+
+.heading h1{
+    margin-top: -25px;
+    font-size: 90px;
+    display: flex;
+    margin-left: -20px;
+}
+.heading{
+margin: 10px;
+}
+.para{
+    margin: 30px;
+}
+.buttons{
+    display: flex;
+    margin: 5px;
+    padding: 4px;
+    color: brown;
+}
+.buttons input{
+    margin: 2px;
+    background: rgb(233, 195, 195);;
+    width: 40px;
+
+}
+/* .pgbtn{
+    display: flex;
+    margin-left: 520px;
+    font-size: 20px;
+    margin-top: 50px;
+    
+    
+} */
+.title h4{
+    font-style: italic;
+    color: red;
+    margin: 8px;
+}
+.detail{
+    padding:2px;
+    margin: 4px;
+    font-weight: bold;
+}
+.price{
+    margin: 3px;
+    padding: 2px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+footer{
+    background-color: blue;
+    margin: .2rem;
+    padding: .8rem;
+    font-size: 1rem;
+    border: .3rem solid whitesmoke;
+    border-radius: .4rem;
+    width: 100%;
+    
+}
+footer a{
+    color: white;
+    margin: .8rem;
+    padding: .5rem;
+}
+footer a:hover{
+    color: red;
+
+}
